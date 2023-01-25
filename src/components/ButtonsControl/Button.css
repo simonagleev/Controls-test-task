@@ -1,0 +1,18 @@
+.control-action-button {
+    width: 100%;
+    display: block;
+    border-radius: 26px;
+    background-color: #5865F2;
+    padding: 5px;
+    border: none;
+    transition: .3s;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.control-action-button:hover {
+    cursor: pointer;
+    box-shadow: RGB(2, 173, 209) 0px 10px 21px, RGB(2, 173, 209) 0px -6px 30px, RGB(2, 173, 209) 0px 2px 4px, RGB(2, 173, 209) 0px 6px 8px, RGB(2, 173, 209) 0px -3px 5px;
+    transition: .3s;
+    font-size: 0.9rem;
+}

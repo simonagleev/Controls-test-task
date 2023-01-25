@@ -1,0 +1,45 @@
+.app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btns-switcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 80%;
+    padding: 2rem 0 1rem;
+}
+
+.app-btn {
+    display: block;
+    border-radius: 26px;
+    background-color: #5865F2;
+    padding: 15px;
+    border: none;
+    width: 50%;
+    transition: .3s;
+    font-size: 1em;
+    font-weight: 700;
+
+}
+
+.app-btn:hover {
+    cursor: pointer;
+    box-shadow: RGB(2, 173, 209) 0px 10px 21px, RGB(2, 173, 209) 0px -6px 30px, RGB(2, 173, 209) 0px 2px 4px, RGB(2, 173, 209) 0px 6px 8px, RGB(2, 173, 209) 0px -3px 5px;
+    transition: .3s;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 800px){
+    .btns-switcher {
+        flex-direction: column;
+        
+    }
+}
