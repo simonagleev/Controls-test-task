@@ -36,10 +36,21 @@
     font-size: 1.2rem;
 }
 
+.autocomplete-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 80%;
+}
+
 
 @media (max-width: 800px){
     .btns-switcher {
         flex-direction: column;
-        
+    }
+    .autocomplete-container {
+        flex-direction: column;
+        width: 70%;
     }
 }
+

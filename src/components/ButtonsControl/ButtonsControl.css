@@ -7,21 +7,12 @@
     gap: 1rem;
 }
 
-.textControl__wrapper-text { 
-    width: 70%;
-    height: 100%;
-    padding: 10px;
-    border-color: black;
-    border-style:groove;
-    border-width: 1px;
-    background-color: white;
-}
-
 .buttons-control-textarea {
     width: 50%;
     height: 10vh;
     border-radius: 7px;
     padding: 2px 4px;
+    outline-color: #5865F2;
 }
 
 .buttons-control-rightSideBar, 

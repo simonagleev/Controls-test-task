@@ -2,9 +2,9 @@ import { observer } from 'mobx-react-lite';
 import ControlService from '../../lib/base/ControlService'
 import { theButton } from '../../models/btn';
 import Button from './Button';
-import './ButtonsControl.css'
+import './ButtonsControl.css';
 
-interface ControlProps {
+interface IControlProps {
     buttons: {
         side: string;
         title: string;
@@ -12,7 +12,7 @@ interface ControlProps {
     }[];
 }
 
-const ButtonsContol = ({ buttons }: ControlProps) => {
+const ButtonsContol = ({ buttons }: IControlProps) => {
 
     const mapButtons = (side: string) => {
         return buttons
@@ -21,11 +21,11 @@ const ButtonsContol = ({ buttons }: ControlProps) => {
             .map((button: theButton, index: number) => (
                 <Button
                     key={index}
-                    myButtonCurr={button}
+                    buttonCurr={button}
                     click={button.callBack}
                 />
-            ));
-    };
+            ))
+    }
 
     return (
         <div className="buttons-control-container">

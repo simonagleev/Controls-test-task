@@ -1,2 +1,2 @@
-export * from './ButtonsControl'
-export { default } from './ButtonsControl'
+export * from './ButtonsControl';
+export { default } from './ButtonsControl';
